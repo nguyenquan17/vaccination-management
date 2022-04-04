@@ -1,0 +1,21 @@
+.loginButton {
+  color: white!important;
+  background-color: var(--primary-color)!important;
+  outline: none!important;
+  margin: 20px 0!important;
+  width: 100%!important;
+  height: 4em!important;
+
+  &:hover {
+    color: var(--primary-color)!important;
+    background-color: white!important;
+    border: var(--primary-color)!important;
+    scale: 0!important;
+  }
+
+  &:focus {
+    border: var(--primary-color)!important;
+    outline: none!important;
+    scale: 0!important;
+  }
+}

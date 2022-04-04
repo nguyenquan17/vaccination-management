@@ -1,0 +1,2 @@
+export const GET_DATA_LINE_CHART = "GET_DATA_LINE_CHART";
+export const GET_DATA_BAR_CHART = "GET_DATA_BAR_CHART";

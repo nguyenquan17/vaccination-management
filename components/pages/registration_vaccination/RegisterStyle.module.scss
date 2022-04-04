@@ -1,0 +1,99 @@
+.navbar {
+    background: linear-gradient(45deg, rgb(230, 74, 87), rgb(28, 139, 230));
+    color: #fff;
+    min-height: 80px;
+    display: flex;
+    // justify-content: space-evenly;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bold;
+    position: sticky;
+    top:0;
+    z-index: 9999;
+}
+.navbarBrand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        text-transform: uppercase;
+    }
+}
+
+.navbarMenu{
+    flex: 0.35;
+}
+
+.navbarButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbarButton a {
+    cursor: pointer;
+}
+
+.navbarButton li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+  }
+  .navbarButton li a {
+    color: #fff;
+    // text-transform: uppercase;
+    text-decoration: none;
+    
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+  }
+  .navbarButton li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .navbarButton li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.mainTitle {
+  background-color: #F8F8F8;
+  min-height: 4rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.headerTitle {
+  
+  display: flex;
+  align-items: center;
+  height: 50px;
+  // position: relative;
+  max-width: 1366px;
+  margin: 0 auto;
+  h2{
+    // position: absolute;
+    // // top: 0;
+    // left: 0;
+    
+    
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #515151;
+    
+  }
+}
+//required
+.asterisk{
+  color: red;
+}

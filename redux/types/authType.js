@@ -1,0 +1,5 @@
+export const LOGIN = "LOGIN"
+export const REGISTER = "REGISTER"
+export const VERIFY_OTP = "VERIFY_OTP"
+export const SEND_EMAIL_OTP = "SEND_EMAIL_OTP"
+export const GET_USER_INFO = "GET_USER_INFO"

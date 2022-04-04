@@ -1,0 +1,113 @@
+.headerTableData{
+  margin: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerSearch{
+  margin: 20px 10px!important;
+}
+
+.wrapperButtonModal{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapperButton {
+  display: flex;
+  justify-content: left;
+}
+
+.customButton {
+  color: white!important;
+  background-color: var(--success-color)!important;
+  outline: none!important;
+  margin: 20px 0!important;
+
+  &:hover {
+    color: var(--success-color)!important;
+    background-color: white!important;
+    border: var(--success-color)!important;
+    scale: 0!important;
+  }
+
+  &:focus {
+    border: var(--success-color)!important;
+    outline: none!important;
+    scale: 0!important;
+  }
+}
+
+.buttonClose{
+  background-color: var(--grey-color)!important;
+  margin-right: 10px!important;
+
+  &:hover {
+    color: var(--grey-color)!important;
+    background-color: white!important;
+    border: var(--grey-color)!important;
+  }
+
+  &:focus {
+    border: var(--grey-color)!important;
+  }
+}
+
+.buttonEdit{
+  margin: 0 10px 0 0 !important;
+  height: 40px!important;
+  color: white!important;
+  background-color: var(--warning-color)!important;
+  outline: none!important;
+
+  &:hover {
+    color: var(--warning-color)!important;
+    background-color: white!important;
+    border: var(--warning-color)!important;
+    scale: 0!important;
+  }
+
+  &:focus {
+    border: var(--warning-color)!important;
+    outline: none!important;
+    scale: 0!important;
+  }
+}
+
+.buttonCancel{
+  margin: 0!important;
+  height: 40px!important;
+  color: white!important;
+  background-color: var(--error-color)!important;
+  outline: none!important;
+
+  &:hover {
+    color: var(--error-color)!important;
+    background-color: white!important;
+    border: var(--error-color)!important;
+    scale: 0!important;
+  }
+
+  &:focus {
+    border: var(--error-color)!important;
+    outline: none!important;
+    scale: 0!important;
+  }
+}
+
+.wrapperInput{
+  margin-bottom: 2em;
+}
+
+.customInput{
+  width: 100%;
+}
+
+.wrapperDateTime{
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
